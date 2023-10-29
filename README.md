@@ -1,2 +1,2 @@
-# br_for_money_app
+# Business Requirement
 Software Enterprise Class: A Business Requirement for money management app 
