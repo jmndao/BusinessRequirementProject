@@ -62,7 +62,6 @@ Certainly, you can add a count of responsibilities for each collaborator. Here's
 - Identify the stakeholders or teams who should receive this document apart from the core team.
 
 ### 1.5 Glossary of Terms
-
   Transfer: The action of moving funds from one user's account to another within the mobile cash app.
   Recipient: The user who receives funds in a money transfer transaction.
   Sender: The user who initiates and sends money in a transfer transaction.
@@ -238,3 +237,5 @@ To support the business processes and requirements of our app. we will need vari
 _Skip this page on purpose_
 
 **Note:** The first draft must be available by Wednesday, 1st, 2023, before midnight.
+
+
