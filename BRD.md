@@ -33,6 +33,8 @@ Furthermore, our application will feature a comprehensive tracking mechanism, pr
   - 1.1 Amendment History
   - 4.4 MI Reporting Requirements
   - 5.1 Volume Model
+  - 5.6 Compliance
+  - 5.7 System Operations
 
 - Serigne Ahmadou Mbacke Fall:
 
@@ -41,8 +43,6 @@ Furthermore, our application will feature a comprehensive tracking mechanism, pr
   - 5.4 Constraints
 
 - Voluntary Contributors:
-  - 5.6 Compliance
-  - 5.7 System Operations
   - 5.6.2 Legal
 
 **Version Number:** 0  
@@ -53,7 +53,11 @@ Furthermore, our application will feature a comprehensive tracking mechanism, pr
 
 ### 1.1 Amendment History
 
-- Document any changes, revisions, or amendments to this document.
+| Version | Date       | Author(s)        | Description of Change |
+| ------- | ---------- | ---------------- | --------------------- |
+| 0       | 2023-11-01 | Jonathan M. NDAO | Initial Draft         |
+| 1       | 2023-11-08 | Jonathan M. NDAO | MI Reporting          |
+| 2       | 2023-11-15 | Jonathan M. NDAO | Volume Model          |
 
 ### 1.2 Associated Documents
 
@@ -219,13 +223,54 @@ These data will help to improve the app by giving the user what he wants.
 
 ### 4.4 MI Reporting Requirements
 
-- Describe the requirements for management information reporting and analysis.
+The MI Reporting Requirements for CashBuddy are vital for providing users with in-depth insights into their financial activities. Key reporting requirements include:
+
+- **Real-time Income and Expense Tracking**: Users should be able to track their income and expenses in real-time. This includes categorizing and subcategorizing expenses for detailed analysis.
+
+- **Goal-setting and Progress Tracking**: CashBuddy will allow users to set financial goals, such as building an emergency fund or saving for a specific purchase. Users can track their progress towards these goals and receive notifications when milestones are reached.
+
+- **Budgeting and Forecasting**: CashBuddy will provide budgeting and forecasting features to help users plan their finances. Users can set budgets for different categories and receive alerts when they exceed their budget. They can also forecast their income and expenses to plan for the future.
+
+- **Interactive Charts and Visualizations**: To facilitate better financial decision-making, CashBuddy will provide interactive charts and visualizations. These will include pie charts, bar graphs, and line charts to present financial data. Users can customize these visuals to gain insights into their spending patterns, income sources, and savings trends.
+
+- **Customizable Reports**: CashBuddy will allow users to create custom reports based on their financial data. These reports can be exported in various formats, including PDF, CSV, and Excel.
+
+<table>
+  <tr>
+ <td><img src="./images/budgeting_and_forecasting.png" alt="Budgeting and Forecasting" width="300"height="200"></td>    
+ <td><img src="./images/transactions.png" alt="Transactions"></td>
+  </tr>
+</table>
 
 ## Non-Functional Requirements
 
 ### 5.1 Volume Model
 
-- Address the expected volume of data, users, or transactions, with a focus on maintaining optimal performance.
+To ensure the optimal performance of CashBuddy, it's crucial to address the expected volume of data and user transactions. CashBuddy aims to support a large user base and handle significant financial data.
+
+Specific volume-related considerations include:
+
+- **Supporting Thousands of Concurrent Users**: CashBuddy is designed to accommodate a substantial user base. It should be capable of handling thousands of concurrent users without performance degradation.
+
+- **Efficient Processing of High Transaction Volumes**: Given the financial nature of the application, it's essential to efficiently process a high volume of financial transactions, including income, expenses, and transfers. The system should provide rapid and accurate transaction processing.
+
+- **Scalability**: CashBuddy should be designed with scalability in mind. As the user base grows, the system should seamlessly scale to handle the increased load while maintaining a responsive user experience.
+
+- **Data Storage**: CashBuddy will store a large volume of financial data, including user information, transaction records, and financial reports. The system should be capable of storing and retrieving this data efficiently.
+
+- **Data Backup and Recovery**: To protect user data, CashBuddy will implement robust data backup and recovery mechanisms. This will ensure that user data is not lost in case of unexpected events or data corruption.
+
+- **Data Retention**: CashBuddy will retain user data for a specified period. This will allow users to access their financial records and reports at any time.
+
+- **Data Archiving**: CashBuddy will archive user data after a specified period. This will ensure that the system's performance is not impacted by the volume of data stored.
+
+**Estimations for a Volume Model**
+
+If we assume that CashBuddy will have 100,000 users, each with an average of 100 transactions per month, the system will handle 10 million transactions per month. This translates to 120 million transactions per year.
+
+If we assume that each transaction will generate 1 KB of data, the system will handle 120 GB of data per year. It's important to note that this estimation is based on assumptions and should be refined with more accurate data or research.
+
+These estimations serve as a starting point for infrastructure planning. CashBuddy will require a robust infrastructure with sufficient storage, processing power, and scalability mechanisms to handle the expected data and transaction volumes.
 
 #### 5.1.1 Customer Experience
 
