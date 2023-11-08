@@ -1,4 +1,4 @@
-# Project Name: Business Requirement Document (BRD)
+# Project Name: Business Requirement Document (BRD) for CashBuddy
 
 **Authors and Responsibilities:**
 
@@ -306,9 +306,4 @@ The app should have a **robust data backup plan** to protect user data in case o
 ## Key Working Assumptions
 
 - Enumerate any assumptions made during the project, which can impact the requirements or deliverables.
-
-_Skip this page on purpose_
-
-**Note:** The first draft must be available by Wednesday, 1st, 2023, before midnight.
-
 
