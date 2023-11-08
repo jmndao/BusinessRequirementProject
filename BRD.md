@@ -113,7 +113,64 @@
 
 ### 4.3 Data Requirements
 
-- Specify the data needed to support the business processes and requirements.
+To support the business processes and requirements of our app. we will need various types of data. Here's a breakdown of the essential data elements:
+
+#### 4.3.1 User Data
+- **User profiles**: Name, email. username, profile picture, address
+- **Authentification data**: Encrypted passwords, security questions, two-factor authentication settings.
+- **Financial goals and preferences**: saving goals, investments preferences
+
+#### 4.3.2 Financial Account Data
+- **Bank and financial institution account information**: account numbers, account names, financial institution names
+- **Transaction data**: transaction data, transaction amount, description, category, payment method.
+- **Balances**: Current account balances
+
+#### 4.3.3 Budget and Expense Data
+- **Budget details**: budget name, start date, end date, total budget amount
+- **Expense data**: Date, amount, category, payee, notes, receipts
+- **Budget tracking**: Expenses allocated to budgets, remaining budget amount.
+
+#### 4.3.4 Goal Data
+- **Financial goals**: goal name, target amount, target date, category.
+- **Goal tracking**: Progress towards goals, contributions made
+
+#### 4.3.5 Security and Authentication Data
+- **User authentication logs**: login and logout times, IP addresses, device information
+- **Security event logs**: failed login attempts, password change history
+
+#### 4.3.6 Notification and Communication Data:
+- **Notification preferences**: user settings for receiving alerts, reminders, and notifications.
+- **In-app messages**: communication history with users, including messages sent and received.
+
+#### 4.3.7 Third-Party Data
+- **Data from third-party services**: payment transaction data, credit scores, investment portfolio details
+
+#### 4.3.8 Localization Data
+- **Language preferences**: user-selected language for app interface and content
+- **Regional preferences**: user-selected currency, date format, time zone.
+
+#### 4.3.9 App Usage Data
+- **User interactions**: user activity within the app, such as clicks, page views, and feature usage.
+- **Analytics data**: user engagement metrics, app performance, and error logs.
+
+#### 4.3.10 Historical Data
+- **Historical transaction and account data**: transaction history, past account balances
+- **Historical budget and expense data**: Past budgets, expenses, and their associated data
+
+#### 4.3.11 Legal and Compliance Data
+- **User consent records**: records od users accepting terms of use and privacy policies
+- **Compliance logs**: records of actions taken to ensure compliance with financial regulations.
+
+#### 4.3.12 Support and Feedback Data
+- **User support interactions**: records of user support requests, feedback, and resolutions
+- **User feedback**: user suggestions, complaints, and feedback regarding the app's functionality
+
+#### 4.3.13 Monetization Data
+- **Subscription data**: records of user subscriptions, subscription types, and billing information
+- **Ad performance data**: metrics related to in-app advertisement, such as click-through rates and impressions.
+
+#### 4.3.14 Geo-location Data
+- **Location data**: data related to the user's location for features like nearby ATM locator.
 
 ### 4.4 MI Reporting Requirements
 
