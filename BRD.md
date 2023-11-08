@@ -238,3 +238,5 @@ These data will help to improve the app by giving the user what he wants.
 _Skip this page on purpose_
 
 **Note:** The first draft must be available by Wednesday, 1st, 2023, before midnight.
+
+
