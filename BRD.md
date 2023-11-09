@@ -217,7 +217,3 @@ These estimations serve as a starting point for infrastructure planning. CashBud
 ## Key Working Assumptions
 
 - Enumerate any assumptions made during the project, which can impact the requirements or deliverables.
-
-_Skip this page on purpose_
-
-**Note:** The first draft must be available by Wednesday, 1st, 2023, before midnight.
