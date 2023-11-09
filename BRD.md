@@ -103,7 +103,59 @@ Furthermore, our application will feature a comprehensive tracking mechanism, pr
 - Cross-Border Transfers: International money transfers are subject to currency conversion rates and may incur additional fees.
 ### 3.4 Scope of this Project
 
-- Define the boundaries and limitations of the project to provide a clear understanding of what's included.
+#### 3.4.1 Scope of Features
+The money management app will include the following core features:
+- **Account Tracking**: Users can link and monitor multiple financial accounts, including bank accounts, credit cards, investments, and loans.
+- **Budgeting**: Users can create and manage budgets, track expenses, and categorize transactions.
+- **Expense Tracking**: Users can log individual expenses, view spending trends, and receive alerts for budget overruns.
+- **Goal Settings**: Users can set financial goals, track progress and receive recommandations for achieving them.
+
+#### 3.4.2 Platforms and Devices
+The money management app will initially be developed for **IOS** and **Android platforms**, with a responsive web version. Support for desktop platforms will be considered in future updates.
+
+#### 3.4.3 User Roles and Permissions 
+The app will have three primary user roles:
+- **Regular Users**: Can view and manage their own financial data
+- **Administrators**: Have access to user management and can oversee the app's operation
+- **Financial Advisors**: Can view and provide financial advice to users with appropriate permissions.
+
+#### 3.4.4 Account Integration
+The app will support integration with major financial institutions and banks, allowing users to **link accounts** from these institutions. Limitations may apply to the number of linked accounts or specific accounts types.
+
+#### 3.4.5 Security Measures
+User data will be protected using **industry-standard encryption** and **security protocols**, including end-to-end encryption for sensitive information. Regular security audits and updates will be conducted to ensure user data safety.
+
+#### 3.4.6 Data Storage
+User data will be securely **stored on cloud servers** with redundant backups. Data storage capacity will be initially set and take scalability into account for future growth.
+
+#### 3.4.7 Compliance and Regulations
+The app will **adhere to relevant financial regulations** to ensure user data privacy and security.
+
+#### 3.4.8 Third-Party Integrations
+The app **will integrate with third-party services** for payment processing or credit score checks. The app's functionality may be dependent on the availability and reliability of these integrations.
+
+#### 3.4.9 User Support and Training:
+Users **will have access to online resources, FAQs, and a customer support channel for assistance**. Support will be available at certain hours. Detailed documentation and tutorials will be provided.
+
+#### 3.4.10 Monetization Strategy
+The app will offer a free basic version with premium features available through **subscription plans**. Additional revenue may be generated through in-app advertisements and optional in-app purchases.
+
+#### 3.4.11 Performance and Scalability
+The app is expected to **handle at least 500,000 of concurrent users**. 
+Scalability measures will ensure the app can handle increased user load.
+
+#### 3.4.12 Testing and Quality Assurance
+Rigorous testing will be conducted to ensure the app's **functionality, security, and performance**. This includes testing for those three.
+
+#### 3.4.13 Legal and Liability
+users will be required to **accept the app's terms of use**, which outline the app's legal responsibilities and limitations. Liability will be limited in accordance with legal standards and will not extend to financial losses.
+
+#### 3.4.14 Localization and Language Support
+The app will initially support **English, french, Spanish and Arabic languages** and may expand to additional languages and regions in future updates
+
+#### 3.4.15 Future Enhancements
+We cover **the initial version of the app**. A process for considering future enhancements, updates, and user feedback will be established.
+
 
 ### 3.5 Exclusions from Scope
 
