@@ -4,15 +4,7 @@
 
 - Haicha NIANG:
 
-  - 3.1 Background
-    In light of the current challenges posed by price inflation, many individuals are encountering difficulties in preserving their finances for future endeavors. The burden of financial responsibilities often impedes their ability to save, and even when they do succeed, unforeseen expenditures invariably arise. Whether these expenditures are essential or discretionary, the mere presence of readily accessible funds in their accounts or wallets makes it increasingly tempting to utilize them, thereby creating obstacles to savings.
-
-To address this issue, we are committed to offering an application designed to assist individuals in managing their financial reserves on a monthly or ad-hoc basis. This application will facilitate the creation of a separate savings account, directly linked to their primary account, where users can securely deposit their savings at their discretion. Moreover, our application will offer the convenience of automated savings, allowing users to designate a predetermined amount to be systematically transferred from their primary account to their savings account each month.
-
-The envisioned application will incorporate distinct categories, enabling users to differentiate and allocate their savings for specific purposes. This segmentation will empower users to distinguish their emergency fund from funds designated for, say, home construction or other particular financial goals. In doing so, they can precisely track and manage their financial objectives with greater ease and clarity.
-
-Furthermore, our application will feature a comprehensive tracking mechanism, presenting users with graphical representations, such as charts, to provide a visual and insightful overview of their savings frequency and progress. This visual representation will not only enhance transparency but also offer a clear and motivating insight into their savings journey.
-
+- 3.1 Background
 - 4.1 Business Process Overview
 - 5.1.1 Customer Experience
 
@@ -79,7 +71,13 @@ Furthermore, our application will feature a comprehensive tracking mechanism, pr
 
 ### 3.1 Background
 
-- Present the background and context of the project, including the business problem or opportunity that initiated it.
+In light of the current challenges posed by price inflation, many individuals are encountering difficulties in preserving their finances for future endeavors. The burden of financial responsibilities often impedes their ability to save, and even when they do succeed, unforeseen expenditures invariably arise. Whether these expenditures are essential or discretionary, the mere presence of readily accessible funds in their accounts or wallets makes it increasingly tempting to utilize them, thereby creating obstacles to savings.
+
+To address this issue, we are committed to offering an application designed to assist individuals in managing their financial reserves on a monthly or ad-hoc basis. This application will facilitate the creation of a separate savings account, directly linked to their primary account, where users can securely deposit their savings at their discretion. Moreover, our application will offer the convenience of automated savings, allowing users to designate a predetermined amount to be systematically transferred from their primary account to their savings account each month.
+
+The envisioned application will incorporate distinct categories, enabling users to differentiate and allocate their savings for specific purposes. This segmentation will empower users to distinguish their emergency fund from funds designated for, say, home construction or other particular financial goals. In doing so, they can precisely track and manage their financial objectives with greater ease and clarity.
+
+Furthermore, our application will feature a comprehensive tracking mechanism, presenting users with graphical representations, such as charts, to provide a visual and insightful overview of their savings frequency and progress. This visual representation will not only enhance transparency but also offer a clear and motivating insight into their savings journey.
 
 ### 3.2 Objectives of this Project
 
@@ -159,7 +157,26 @@ Once testing is complete, deployment can begin.
 
 #### 5.1.1 Customer Experience
 
-- Detail the non-functional requirements related to ensuring an exceptional customer experience.
+Our app is designed to address the challenges posed by price inflation, helping individuals manage their finances effectively and save for future plans.
+The target audience for our app includes individuals looking for a solution to better manage their finances, overcome impulsive spending and secure their savings.
+
+- Users will start by creating an account within the app.
+  -During account setup, users can choose to create a separate savings account linked to their main account.
+  -Users will decide whether they want to save on a monthly or one-off basis.
+  -They can securely deposit funds into their savings account at their discretion.
+  -For automated savings, users can set predetermined amounts for systematic transfers to their savings account each month.
+  -Users will have the option to create separate savings categories for various financial goals.
+  -The application will feature a user-friendly and intuitive interface, designed to make financial management easy and accessible.
+  -Visual design will incorporate calming colors and clear typography for a stress-free user experience.
+  -The application's branding elements will convey trust and reliability.
+  -Users can view their primary and savings account balances, transaction history, and saved categories.
+  -The transfer of funds will be secure and simple.
+  -Users can update their savings preferences at any time.
+  -The app will follow usability and accessibility guidelines to ensure it is easy to use for all individuals.
+  -The app will be responsive, ensuring a consistent experience across various devices including desktop, mobile, and tablet.
+  -Help resources will be accessible through the app, including FAQs and direct customer support channels.
+  -The support team will promptly respond to feedback and resolve issues.
+  -Provide specific scenarios and use cases to illustrate how users can effectively manage their finances, create savings categories, and track their progress with the app.
 
 ### 5.2 Shelf Life
 
