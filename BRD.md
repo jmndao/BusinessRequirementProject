@@ -53,11 +53,10 @@ Furthermore, our application will feature a comprehensive tracking mechanism, pr
 
 ### 1.1 Amendment History
 
-| Version | Date       | Author(s)        | Description of Change |
-| ------- | ---------- | ---------------- | --------------------- |
-| 0       | 2023-11-01 | Jonathan M. NDAO | Initial Draft         |
-| 1       | 2023-11-08 | Jonathan M. NDAO | MI Reporting          |
-| 2       | 2023-11-15 | Jonathan M. NDAO | Volume Model          |
+| Version | Date       | Author(s)     | Description of Change |
+| ------- | ---------- | ------------- | --------------------- |
+| 0       | 2023-11-01 | CS_Class_Team | Initial Draft         |
+| 1       | 2023-11-09 | CS_Class_Team | First Submission      |
 
 ### 1.2 Associated Documents
 
@@ -79,6 +78,7 @@ Furthermore, our application will feature a comprehensive tracking mechanism, pr
 - Transaction Fee: The charge or cost associated with using the app for certain transactions.
 - Two-Factor Authentication (2FA): A security method that requires users to provide two forms of identification to access their accounts, enhancing security.
 - Balance: The amount of money in a user's account at any given time.
+
 ## Purpose of this Document
 
 - Provide a brief overview of the purpose of this document and its importance in the project.
@@ -101,61 +101,78 @@ Furthermore, our application will feature a comprehensive tracking mechanism, pr
 - User Authentication: All users must complete identity verification when registering for the app to ensure the security of financial transactions.
 - Fraud Detection: The app includes fraud detection algorithms to identify and block suspicious or potentially fraudulent transactions.
 - Cross-Border Transfers: International money transfers are subject to currency conversion rates and may incur additional fees.
+
 ### 3.4 Scope of this Project
 
 #### 3.4.1 Scope of Features
+
 The money management app will include the following core features:
+
 - **Account Tracking**: Users can link and monitor multiple financial accounts, including bank accounts, credit cards, investments, and loans.
 - **Budgeting**: Users can create and manage budgets, track expenses, and categorize transactions.
 - **Expense Tracking**: Users can log individual expenses, view spending trends, and receive alerts for budget overruns.
 - **Goal Settings**: Users can set financial goals, track progress and receive recommandations for achieving them.
 
 #### 3.4.2 Platforms and Devices
+
 The money management app will initially be developed for **IOS** and **Android platforms**, with a responsive web version. Support for desktop platforms will be considered in future updates.
 
-#### 3.4.3 User Roles and Permissions 
+#### 3.4.3 User Roles and Permissions
+
 The app will have three primary user roles:
+
 - **Regular Users**: Can view and manage their own financial data
 - **Administrators**: Have access to user management and can oversee the app's operation
 - **Financial Advisors**: Can view and provide financial advice to users with appropriate permissions.
 
 #### 3.4.4 Account Integration
+
 The app will support integration with major financial institutions and banks, allowing users to **link accounts** from these institutions. Limitations may apply to the number of linked accounts or specific accounts types.
 
 #### 3.4.5 Security Measures
+
 User data will be protected using **industry-standard encryption** and **security protocols**, including end-to-end encryption for sensitive information. Regular security audits and updates will be conducted to ensure user data safety.
 
 #### 3.4.6 Data Storage
+
 User data will be securely **stored on cloud servers** with redundant backups. Data storage capacity will be initially set and take scalability into account for future growth.
 
 #### 3.4.7 Compliance and Regulations
+
 The app will **adhere to relevant financial regulations** to ensure user data privacy and security.
 
 #### 3.4.8 Third-Party Integrations
+
 The app **will integrate with third-party services** for payment processing or credit score checks. The app's functionality may be dependent on the availability and reliability of these integrations.
 
 #### 3.4.9 User Support and Training:
+
 Users **will have access to online resources, FAQs, and a customer support channel for assistance**. Support will be available at certain hours. Detailed documentation and tutorials will be provided.
 
 #### 3.4.10 Monetization Strategy
+
 The app will offer a free basic version with premium features available through **subscription plans**. Additional revenue may be generated through in-app advertisements and optional in-app purchases.
 
 #### 3.4.11 Performance and Scalability
-The app is expected to **handle at least 500,000 of concurrent users**. 
+
+The app is expected to **handle at least 500,000 of concurrent users**.
 Scalability measures will ensure the app can handle increased user load.
 
 #### 3.4.12 Testing and Quality Assurance
+
 Rigorous testing will be conducted to ensure the app's **functionality, security, and performance**. This includes testing for those three.
 
 #### 3.4.13 Legal and Liability
+
 users will be required to **accept the app's terms of use**, which outline the app's legal responsibilities and limitations. Liability will be limited in accordance with legal standards and will not extend to financial losses.
 
 #### 3.4.14 Localization and Language Support
+
 The app will initially support **English, french, Spanish and Arabic languages** and may expand to additional languages and regions in future updates
 
 #### 3.4.15 Future Enhancements
-We cover **the initial version of the app**. A process for considering future enhancements, updates, and user feedback will be established.
 
+We cover **the initial version of the app**. A process for considering future enhancements, updates, and user feedback will be established.
 
 ### 3.5 Exclusions from Scope
 
@@ -212,6 +229,7 @@ Once testing is complete, deployment can begin.
 To support the business processes and requirements of our app. we will need various types of data. Here's a breakdown of the essential data elements:
 
 #### 4.3.1 User Data
+
 - **User profiles**: Name, email. username, profile picture, address
 - **Authentification data**: Encrypted passwords, security questions, two-factor authentication settings.
 - **Financial goals and preferences**: saving goals, investments preferences
@@ -219,6 +237,7 @@ To support the business processes and requirements of our app. we will need vari
 Theses provide the data we need to display right information on the page depending on the user.
 
 #### 4.3.2 Financial Account Data
+
 - **Bank and financial institution account information**: account numbers, account names, financial institution names
 - **Transaction data**: transaction data, transaction amount, description, category, payment method.
 - **Balances**: Current account balances
@@ -226,48 +245,58 @@ Theses provide the data we need to display right information on the page dependi
 Theses allows to link the financial account with the app so that the user may transfert money from his bank account to the app.
 
 #### 4.3.3 Budget and Expense Data
+
 - **Budget details**: budget name, start date, end date, total budget amount
 - **Expense data**: Date, amount, category, payee, notes, receipts
 - **Budget tracking**: Expenses allocated to budgets, remaining budget amount.
 
 #### 4.3.4 Goal Data
+
 - **Financial goals**: goal name, target amount, target date, category.
 - **Goal tracking**: Progress towards goals, contributions made
 
 #### 4.3.5 Security and Authentication Data
+
 - **User authentication logs**: login and logout times, IP addresses, device information
 - **Security event logs**: failed login attempts, password change history
 
 #### 4.3.6 Notification and Communication Data:
+
 - **Notification preferences**: user settings for receiving alerts, reminders, and notifications.
 - **In-app messages**: communication history with users, including messages sent and received.
 
 #### 4.3.7 Third-Party Data
+
 - **Data from third-party services**: payment transaction data, credit scores, investment portfolio details
 
 #### 4.3.8 Localization Data
+
 - **Language preferences**: user-selected language for app interface and content
 - **Regional preferences**: user-selected currency, date format, time zone.
 
 #### 4.3.9 App Usage Data
+
 - **User interactions**: user activity within the app, such as clicks, page views, and feature usage.
 - **Analytics data**: user engagement metrics, app performance, and error logs.
 
 Theses help to know where to place adds for instance.
 
 #### 4.3.10 Historical Data
+
 - **Historical transaction and account data**: transaction history, past account balances
 - **Historical budget and expense data**: Past budgets, expenses, and their associated data
 
 Theses might help the user to compare his expenses.
 
 #### 4.3.11 Legal and Compliance Data
+
 - **User consent records**: records of users accepting terms of use and privacy policies
 - **Compliance logs**: records of actions taken to ensure compliance with financial regulations.
 
 Knowing the records of users accepting terms of use and privacy policies help the administration of the app to know the number of active users.
 
 #### 4.3.12 Support and Feedback Data
+
 - **User support interactions**: records of user support requests, feedback, and resolutions
 - **User feedback**: user suggestions, complaints, and feedback regarding the app's functionality
 
@@ -331,33 +360,43 @@ These estimations serve as a starting point for infrastructure planning. CashBud
 ### 5.2 Shelf Life
 
 #### 5.2.1 Data Retention Policies
+
 This is the policies that specify how long different types of data will be stored within the app.
+
 - **Transaction data**, **historical budget** and **expense data** may be retained for a **minimum of 6 weeks** and a **maximum of 8 weeks**.
 - User login history may be retained for **2 weeks**
 
 #### 5.2.2 User Data Control
+
 Users should have the ability to control and customize data retention preferences, allowing them to:
+
 - Delete **specific transactions** and **data entries**
 - **Archive** or **export data** for personal record-keeping
 - Set their own retention preferences for historical data
 
 #### 5.2.3 Automated Data Deletion
+
 The app should have an automated data deletion processes that adhere to the defined data relation policies. Therefore, ensure that:
+
 - Data **older** than the specified retention periods is automatically deleted,
 - Deleted data is **irretrievable** and **securely erased**
 
 #### 5.2.4 Data Export and Backup
+
 Users should be **allowed to export their data**, such as transaction history, budgets, and expense reports, for backup purpose.
 This functionality should **be accessible to users at any time**.
 
 #### 5.2.5 User Notifications
+
 The app **should notify users** in advance before any data is set to expire or be automatically deleted according to the retention policies.
 Users should receive clear and informative notifications about upcoming data removal.
 
 #### 5.2.6 Account Closure
+
 Users should **be able to close their accounts**. Therefore, the app should ensure that user data is deleted.
 
 #### 5.2.7 Data Backups
+
 The app should have a **robust data backup plan** to protect user data in case of system failures.
 
 ### 5.3 Security Requirements
@@ -372,6 +411,7 @@ The app should have a **robust data backup plan** to protect user data in case o
 - Scalability: The app's infrastructure must support scalability to accommodate increased user activity and transaction volumes.
 - Security and Data Protection: Strict security measures and encryption must be implemented to protect user data and prevent data breaches.
 - User Support and Response Times: The app must adhere to specific response time constraints for addressing user support requests and resolving issues.
+
 #### 5.5 Integrity
 
 - Address the integrity and reliability of data, processes, and systems.
