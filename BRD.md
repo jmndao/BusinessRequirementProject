@@ -351,4 +351,3 @@ The app should have a **robust data backup plan** to protect user data in case o
 ## Key Working Assumptions
 
 - Enumerate any assumptions made during the project, which can impact the requirements or deliverables.
-
