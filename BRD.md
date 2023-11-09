@@ -139,7 +139,15 @@ User data will be securely **stored on cloud servers** with redundant backups. D
 
 #### 3.4.7 Compliance and Regulations
 
-The app will **adhere to relevant financial regulations** to ensure user data privacy and security.
+Compliance is a critical aspect of the CashBuddy project. We must ensure that the application aligns with relevant industry standards and regulatory requirements, providing users with a safe and secure financial management experience. Key aspects of compliance include:
+
+Data Security: CashBuddy must adhere to industry best practices for data security and privacy. This includes encryption, secure storage, and user consent for data access.
+
+Financial Regulations: We will comply with financial regulations and standards applicable to financial apps, ensuring that users' financial information and transactions are handled in accordance with legal requirements.
+
+User Data Protection: Protecting user data is paramount. We will implement mechanisms for user data protection, including the handling of personal information and transaction records.
+
+Audit Trail: A comprehensive audit trail feature will be implemented to track and monitor compliance with regulatory requirements. This will provide transparency and accountability in case of audits or inquiries.
 
 #### 3.4.8 Third-Party Integrations
 
