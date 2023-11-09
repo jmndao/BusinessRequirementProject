@@ -1,5 +1,3 @@
-Certainly, you can add a count of responsibilities for each collaborator. Here's the updated list with counts:
-
 # Project Name: Business Requirement Document (BRD)
 
 **Authors and Responsibilities:**
