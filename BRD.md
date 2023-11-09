@@ -161,22 +161,23 @@ Our app is designed to address the challenges posed by price inflation, helping 
 The target audience for our app includes individuals looking for a solution to better manage their finances, overcome impulsive spending and secure their savings.
 
 - Users will start by creating an account within the app.
-  -During account setup, users can choose to create a separate savings account linked to their main account.
-  -Users will decide whether they want to save on a monthly or one-off basis.
-  -They can securely deposit funds into their savings account at their discretion.
-  -For automated savings, users can set predetermined amounts for systematic transfers to their savings account each month.
-  -Users will have the option to create separate savings categories for various financial goals.
-  -The application will feature a user-friendly and intuitive interface, designed to make financial management easy and accessible.
-  -Visual design will incorporate calming colors and clear typography for a stress-free user experience.
-  -The application's branding elements will convey trust and reliability.
-  -Users can view their primary and savings account balances, transaction history, and saved categories.
-  -The transfer of funds will be secure and simple.
-  -Users can update their savings preferences at any time.
-  -The app will follow usability and accessibility guidelines to ensure it is easy to use for all individuals.
-  -The app will be responsive, ensuring a consistent experience across various devices including desktop, mobile, and tablet.
-  -Help resources will be accessible through the app, including FAQs and direct customer support channels.
-  -The support team will promptly respond to feedback and resolve issues.
-  -Provide specific scenarios and use cases to illustrate how users can effectively manage their finances, create savings categories, and track their progress with the app.
+
+- During account setup, users can choose to create a separate savings account linked to their main account.
+- Users will decide whether they want to save on a monthly or one-off basis.
+- They can securely deposit funds into their savings account at their discretion.
+  - For automated savings, users can set predetermined amounts for systematic transfers to their savings account each month.
+  - Users will have the option to create separate savings categories for various financial goals.
+  - The application will feature a user-friendly and intuitive interface, designed to make financial management easy and accessible.
+  - Visual design will incorporate calming colors and clear typography for a stress-free user experience.
+  - The application's branding elements will convey trust and reliability.
+  - Users can view their primary and savings account balances, transaction history, and saved categories.
+  - The transfer of funds will be secure and simple.
+  - Users can update their savings preferences at any time.
+  - The app will follow usability and accessibility guidelines to ensure it is easy to use for all individuals.
+  - The app will be responsive, ensuring a consistent experience across various devices including desktop, mobile, and tablet.
+  - Help resources will be accessible through the app, including FAQs and direct customer support channels.
+  - The support team will promptly respond to feedback and resolve issues.
+  - Provide specific scenarios and use cases to illustrate how users can effectively manage their finances, create savings categories, and track their progress with the app.
 
 ### 5.2 Shelf Life
 
