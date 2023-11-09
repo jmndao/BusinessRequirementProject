@@ -116,10 +116,14 @@ To support the business processes and requirements of our app. we will need vari
 - **Authentification data**: Encrypted passwords, security questions, two-factor authentication settings.
 - **Financial goals and preferences**: saving goals, investments preferences
 
+Theses provide the data we need to display right information on the page depending on the user.
+
 #### 4.3.2 Financial Account Data
 - **Bank and financial institution account information**: account numbers, account names, financial institution names
 - **Transaction data**: transaction data, transaction amount, description, category, payment method.
 - **Balances**: Current account balances
+
+Theses allows to link the financial account with the app so that the user may transfert money from his bank account to the app.
 
 #### 4.3.3 Budget and Expense Data
 - **Budget details**: budget name, start date, end date, total budget amount
@@ -149,24 +153,25 @@ To support the business processes and requirements of our app. we will need vari
 - **User interactions**: user activity within the app, such as clicks, page views, and feature usage.
 - **Analytics data**: user engagement metrics, app performance, and error logs.
 
+Theses help to know where to place adds for instance.
+
 #### 4.3.10 Historical Data
 - **Historical transaction and account data**: transaction history, past account balances
 - **Historical budget and expense data**: Past budgets, expenses, and their associated data
 
+Theses might help the user to compare his expenses.
+
 #### 4.3.11 Legal and Compliance Data
-- **User consent records**: records od users accepting terms of use and privacy policies
+- **User consent records**: records of users accepting terms of use and privacy policies
 - **Compliance logs**: records of actions taken to ensure compliance with financial regulations.
+
+Knowing the records of users accepting terms of use and privacy policies help the administration of the app to know the number of active users.
 
 #### 4.3.12 Support and Feedback Data
 - **User support interactions**: records of user support requests, feedback, and resolutions
 - **User feedback**: user suggestions, complaints, and feedback regarding the app's functionality
 
-#### 4.3.13 Monetization Data
-- **Subscription data**: records of user subscriptions, subscription types, and billing information
-- **Ad performance data**: metrics related to in-app advertisement, such as click-through rates and impressions.
-
-#### 4.3.14 Geo-location Data
-- **Location data**: data related to the user's location for features like nearby ATM locator.
+These data will help to improve the app by giving the user what he wants.
 
 ### 4.4 MI Reporting Requirements
 
