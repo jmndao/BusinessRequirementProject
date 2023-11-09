@@ -446,7 +446,15 @@ The app should have a **robust data backup plan** to protect user data in case o
 
 ### 5.7 System Operations
 
-- Detail the requirements for system operations, including maintenance and support.
+Reliable system operations are crucial to maintaining CashBuddy's functionality and performance. The requirements for system operations include:
+
+- **24/7 System Availability**: CashBuddy should be available to users around the clock. Any maintenance or downtime must be planned and communicated in advance to minimize disruption.
+
+- **Regular Updates and Maintenance**: Scheduled updates and maintenance should be conducted to keep the application secure and up to date. Users should be notified in advance about such activities.
+
+- **User Support**: A support system, including customer service channels and documentation, should be in place to assist users with any issues or questions they may have.
+
+- **Data Backup and Recovery**: Robust data backup and recovery mechanisms will be implemented to protect user data in case of unexpected events or data loss.
 
 ## Key Working Assumptions
 
