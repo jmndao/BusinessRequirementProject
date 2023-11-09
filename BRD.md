@@ -62,8 +62,12 @@ Certainly, you can add a count of responsibilities for each collaborator. Here's
 - Identify the stakeholders or teams who should receive this document apart from the core team.
 
 ### 1.5 Glossary of Terms
-
-- Include a glossary defining any specialized terms or acronyms used in this document to ensure a common understanding.
+  Transfer: The action of moving funds from one user's account to another within the mobile cash app.
+  Recipient: The user who receives funds in a money transfer transaction.
+  Sender: The user who initiates and sends money in a transfer transaction.
+  Transaction Fee: The charge or cost associated with using the app for certain transactions.
+  Two-Factor Authentication (2FA): A security method that requires users to provide two forms of identification to access their accounts, enhancing       security.
+  Balance: The amount of money in a user's account at any given time.
 
 ## Purpose of this Document
 
@@ -81,8 +85,13 @@ Certainly, you can add a count of responsibilities for each collaborator. Here's
 
 ### 3.3 Known Business Rules
 
-- Document any existing business rules or regulations that the project must adhere to.
-
+  AML/CFT Regulations: The mobile cash app must comply with Anti-Money Laundering (AML) and Countering the Financing of Terrorism (CFT) regulations, including customer identification and reporting suspicious transactions.
+  Daily Transaction Limit: The app enforces a daily transaction limit for users to prevent fraudulent or excessive transactions.
+  Transaction Verification: Before completing a transfer, users must verify the transaction with a secure method (e.g., PIN, fingerprint, or facial recognition).
+  User Authentication: All users must complete identity verification when registering for the app to ensure the security of financial transactions.
+  Fraud Detection: The app includes fraud detection algorithms to identify and block suspicious or potentially fraudulent transactions.
+  Cross-Border Transfers: International money transfers are subject to currency conversion rates and may incur additional fees.
+  
 ### 3.4 Scope of this Project
 
 - Define the boundaries and limitations of the project to provide a clear understanding of what's included.
@@ -191,7 +200,12 @@ These data will help to improve the app by giving the user what he wants.
 
 ### 5.4 Constraints
 
-- Specify any constraints or limitations that may impact the project's execution.
+  Budget Constraints: The project operates with a predefined budget for development and maintenance, limiting the allocation of resources.
+  Compliance Deadlines: The app must meet regulatory compliance deadlines, and any delays can result in legal consequences.
+  Third-Party Integration: The integration of external payment systems and financial institutions may be subject to their operational constraints and APIs.
+  Scalability: The app's infrastructure must support scalability to accommodate increased user activity and transaction volumes.
+  Security and Data Protection: Strict security measures and encryption must be implemented to protect user data and prevent data breaches.
+  User Support and Response Times: The app must adhere to specific response time constraints for addressing user support requests and resolving issues.
 
 #### 5.5 Integrity
 
@@ -228,3 +242,5 @@ These data will help to improve the app by giving the user what he wants.
 _Skip this page on purpose_
 
 **Note:** The first draft must be available by Wednesday, 1st, 2023, before midnight.
+
+
