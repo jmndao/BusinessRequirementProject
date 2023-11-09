@@ -233,7 +233,35 @@ These data will help to improve the app by giving the user what he wants.
 
 ### 5.2 Shelf Life
 
-- Define the requirements related to the lifespan or expiration of products or data.
+#### 5.2.1 Data Retention Policies
+This is the policies that specify how long different types of data will be stored within the app.
+- **Transaction data**, **historical budget** and **expense data** may be retained for a **minimum of 6 weeks** and a **maximum of 8 weeks**.
+- User login history may be retained for **2 weeks**
+
+#### 5.2.2 User Data Control
+Users should have the ability to control and customize data retention preferences, allowing them to:
+- Delete **specific transactions** and **data entries**
+- **Archive** or **export data** for personal record-keeping
+- Set their own retention preferences for historical data
+
+#### 5.2.3 Automated Data Deletion
+The app should have an automated data deletion processes that adhere to the defined data relation policies. Therefore, ensure that:
+- Data **older** than the specified retention periods is automatically deleted,
+- Deleted data is **irretrievable** and **securely erased**
+
+#### 5.2.4 Data Export and Backup
+Users should be **allowed to export their data**, such as transaction history, budgets, and expense reports, for backup purpose.
+This functionality should **be accessible to users at any time**.
+
+#### 5.2.5 User Notifications
+The app **should notify users** in advance before any data is set to expire or be automatically deleted according to the retention policies.
+Users should receive clear and informative notifications about upcoming data removal.
+
+#### 5.2.6 Account Closure
+Users should **be able to close their accounts**. Therefore, the app should ensure that user data is deleted.
+
+#### 5.2.7 Data Backups
+The app should have a **robust data backup plan** to protect user data in case of system failures.
 
 ### 5.3 Security Requirements
 
